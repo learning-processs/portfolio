@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 
 const Contact = () => {
   return (
-    <motion.div initial={{opacity:0.2, y:100}} transition={{delay:0.9,duration:1}} whileInView={{opacity:1,y:0}} viewport={{once:false}}
+    <motion.div initial={{opacity:0.2, y:100}} transition={{delay:0.9,duration:1}} whileInView={{opacity:1,y:0}} viewport={{once:true}}
      className="w-full flex flex-col items-center justify-center mb-10" id="contact">
       <h1 className=" text-4xl font-semibold py-4">Contact</h1>
       <hr className="border-t-2 border-red-600 w-32 my-2 " />
