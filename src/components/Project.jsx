@@ -12,7 +12,7 @@ const Project = () => {
        className=" flex  gap-10 py-7">
         {servicesCon.map((item, i) => (
           <div key={i} className="flex flex-col justify-center items-center gap-5">
-            <img src={item.image} alt="" className="sm:h-28 m:w-28 rounded-full w-20 h-20" />
+            <img src={item.image} alt="" className="rounded-full w-20 h-20 sm:h-28 sm:w-28 " />
             <h2 className="text-lg font-semibold">{item.heading}</h2>
             <p className="text-start md:text-base text-sm">{item.desc}</p>
           </div>
