@@ -16,7 +16,7 @@ const Project = () => {
           <div key={i} className="flex flex-col justify-center items-center gap-5">
             <img src={item.image} alt="" className="rounded-full w-20 h-20 sm:h-28 sm:w-28 " />
             <h2 className="text-lg font-semibold">{item.heading}</h2>
-            <p className="text-start md:text-base text-sm">{item.desc}</p>
+            <p className="text-start md:text-center md:text-base text-sm text-gray-600 leading-relaxed max-w-xs">{item.desc}</p>
           </div>
         ))}
       </motion.div>
